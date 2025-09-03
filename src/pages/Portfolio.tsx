@@ -48,6 +48,34 @@ const Portfolio = () => {
     sr.reveal('.publication-box', { interval: 100 });
     sr.reveal('.podcast-card', { interval: 100 });
 
+    // Smooth scroll function for navigation
+    const smoothScrollTo = (targetId: string) => {
+      const element = document.getElementById(targetId);
+      if (element) {
+        element.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+      }
+    };
+
+    // Add click handlers for navigation links
+    const handleNavClick = (e: Event) => {
+      e.preventDefault();
+      const target = e.target as HTMLAnchorElement;
+      const href = target.getAttribute('href');
+      if (href && href.startsWith('#')) {
+        const targetId = href.substring(1);
+        smoothScrollTo(targetId);
+      }
+    };
+
+    // Attach click handlers to all nav links
+    const navLinks = document.querySelectorAll('.nav-link');
+    navLinks.forEach(link => {
+      link.addEventListener('click', handleNavClick);
+    });
+
     // Mobile menu functionality
     const menuIcon = document.getElementById('menu-icon');
     const navbar = document.querySelector('.navbar');
@@ -62,7 +90,7 @@ const Portfolio = () => {
     // Active navigation highlighting
     const handleScroll = () => {
       const sections = document.querySelectorAll('section[id]');
-      const navLinks = document.querySelectorAll('.nav-link');
+      const navLinksForHighlight = document.querySelectorAll('.nav-link');
       
       let current = '';
       sections.forEach(section => {
@@ -73,7 +101,7 @@ const Portfolio = () => {
         }
       });
 
-      navLinks.forEach(link => {
+      navLinksForHighlight.forEach(link => {
         link.classList.remove('active');
         if (link.getAttribute('href') === `#${current}`) {
           link.classList.add('active');
@@ -88,6 +116,10 @@ const Portfolio = () => {
       if (typed) {
         typed.destroy();
       }
+      // Remove navigation event listeners
+      navLinks.forEach(link => {
+        link.removeEventListener('click', handleNavClick);
+      });
       menuIcon?.removeEventListener('click', toggleMenu);
       window.removeEventListener('scroll', handleScroll);
     };
@@ -98,7 +130,7 @@ const Portfolio = () => {
       {/* Header */}
       <header className="fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-background/80 border-b border-border">
         <nav className="container mx-auto px-4 py-4 flex items-center justify-between">
-          <a href="#home" className="text-2xl font-bold">
+          <a href="#home" className="text-2xl font-bold nav-link">
             Port<span className="text-gradient">folio.</span>
           </a>
           
@@ -1005,7 +1037,7 @@ const Portfolio = () => {
               </a>
             </div>
 
-            <a href="#home" className="social-icon animate-pulse-glow">
+            <a href="#home" className="social-icon animate-pulse-glow nav-link">
               <i className='bx bx-up-arrow-alt'></i>
             </a>
           </div>
