@@ -1,7 +1,7 @@
 import { useEffect } from 'react';
 import Typed from 'typed.js';
 import ScrollReveal from 'scrollreveal';
-import ChatBotOffline from '@/components/ChatBotOffline';
+import VirtualAbhishekChatBotSimple from '@/components/VirtualAbhishekChatBotSimple';
 
 const asset = (file: string) => `${import.meta.env.BASE_URL}assets/${file}`;
 
@@ -1057,7 +1057,7 @@ const Portfolio = () => {
       `}</style>
       
       {/* Virtual Abhishek Chatbot */}
-      <ChatBotOffline />
+      <VirtualAbhishekChatBotSimple />
     </div>
   );
 };

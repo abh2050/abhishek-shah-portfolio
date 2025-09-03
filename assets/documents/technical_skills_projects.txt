@@ -1,0 +1,167 @@
+ABHISHEK SHAH - TECHNICAL SKILLS AND PROJECT DETAILS
+
+TECHNICAL EXPERTISE
+
+AI/ML Technologies:
+- Deep Learning Frameworks: TensorFlow, PyTorch, Keras
+- NLP Libraries: HuggingFace Transformers, spaCy, NLTK
+- LLM Integration: OpenAI GPT-3.5/4, Claude, LangChain, LangGraph
+- Computer Vision: OpenCV, PIL, scikit-image
+- Traditional ML: scikit-learn, XGBoost, LightGBM, Random Forest
+
+Cloud & Infrastructure:
+- AWS: SageMaker, EC2, S3, Lambda, CloudFormation
+- Azure: ML Studio, Cognitive Services, Data Factory
+- Google Cloud: Vertex AI, BigQuery, Cloud Functions
+- Containerization: Docker, Kubernetes, OpenShift
+- Orchestration: Apache Airflow, MLflow, Kubeflow
+
+Data Engineering:
+- Big Data: Apache Spark, Hadoop, Databricks
+- Databases: PostgreSQL, MySQL, MongoDB, Neo4j
+- Data Warehousing: Snowflake, Redshift, BigQuery
+- Vector Databases: Pinecone, Weaviate, Qdrant, ChromaDB
+- Stream Processing: Kafka, Apache Flink
+
+Programming & Development:
+- Primary Languages: Python, R, SQL
+- Web Development: JavaScript, TypeScript, React, Flask, FastAPI
+- Version Control: Git, GitHub, GitLab
+- CI/CD: Jenkins, GitHub Actions, Azure DevOps
+- Infrastructure as Code: Terraform, CloudFormation
+
+DETAILED PROJECT PORTFOLIO
+
+1. LOCAL RAG WITH DEEPSEEK AND OLLAMA
+Technology Stack: Streamlit, Ollama, DeepSeek, OpenAI Embeddings, Pinecone
+Description: Built a comprehensive RAG pipeline for SEC filings analysis (10-K, 10-Q, 8-K) using local language models. Implemented semantic search capabilities with vector embeddings, enabling AI-driven financial document analysis and trend comparison.
+Key Features:
+- Local LLM deployment with Ollama
+- Vector similarity search with Pinecone
+- Real-time document processing
+- Interactive Streamlit interface
+GitHub: https://github.com/abh2050/financial_doc_analyser_local_ollama_Deepseek.git
+
+2. LANGGRAPH MULTI-AGENT AI TRAVEL PLANNER
+Technology Stack: LangGraph, Google Gemini Flash-2.0, DuckDuckGo Search
+Description: State-of-the-art multi-agent travel planning system that coordinates multiple AI agents to create comprehensive travel itineraries. Integrates real-time web search, weather data, and local recommendations.
+Key Features:
+- Multi-agent coordination with LangGraph
+- Real-time data integration
+- Personalized recommendations
+- Dynamic itinerary optimization
+GitHub: https://github.com/abh2050/langgraph_multi_agent_ai_travel_agent
+
+3. CUSTOMER SERVICE MULTI-AGENT SWARM
+Technology Stack: Agent Swarm Framework, OpenAI GPT, Python
+Description: Implemented a sophisticated multi-agent system where specialized agents work together to process and respond to customer service requests. Each agent has specific expertise areas and can collaborate to solve complex issues.
+Key Features:
+- Specialized agent roles
+- Inter-agent communication
+- Escalation workflows
+- Performance monitoring
+GitHub: https://github.com/abh2050/customerservice_swarm_agent.git
+
+4. AGENTIC RAG FINANCIAL ANALYSIS AI ASSISTANT
+Technology Stack: Agno Agentic Framework, Web Search APIs, Financial Data APIs
+Description: AI agents system that fetches web search results and financial data to perform comprehensive financial analysis. Combines multiple data sources for investment insights and market analysis.
+Key Features:
+- Web scraping and data aggregation
+- Financial metrics analysis
+- Automated report generation
+- Real-time market data integration
+GitHub: https://github.com/abh2050/agentic_rag_agno.git
+
+5. CUSTOMER SUPPORT INTELLIGENCE PLATFORM
+Technology Stack: Streamlit, NLP, Machine Learning, Python
+Description: Comprehensive customer support analysis platform that processes support tickets, identifies trends, and provides actionable insights for improving customer service operations.
+Key Features:
+- Sentiment analysis
+- Topic modeling
+- Automated ticket routing
+- Performance dashboards
+GitHub: https://github.com/abh2050/Customer_support_intelligence.git
+Live Demo: https://customersupportintelligence.streamlit.app/
+
+6. RAG WITH NEO4J KNOWLEDGE GRAPH
+Technology Stack: Neo4j, OpenAI, Graph Databases, Python
+Description: Advanced RAG system that leverages knowledge graphs stored in Neo4j to provide contextually rich responses. Combines the power of graph databases with large language models for enhanced information retrieval.
+Key Features:
+- Graph-based knowledge representation
+- Complex relationship queries
+- Enhanced context understanding
+- Scalable graph architecture
+
+7. FINANCIAL DOCUMENT ANALYZER
+Technology Stack: Streamlit, PDF Processing, NLP, OpenAI
+Description: Intelligent document analysis system for financial reports and statements. Extracts key insights, performs trend analysis, and generates executive summaries from complex financial documents.
+Key Features:
+- PDF parsing and text extraction
+- Financial metric identification
+- Automated insights generation
+- Interactive visualization
+GitHub: https://github.com/abh2050/financial_doc_analyser
+Live Demo: https://financialdocanalyser.streamlit.app/
+
+8. LEGAL DOCUMENT SEARCH ENGINE
+Technology Stack: PySpark, BM25, TF-IDF, Streamlit, NLP
+Description: High-performance legal document search system using distributed computing with PySpark. Implements advanced text retrieval algorithms (BM25, TF-IDF) for efficient full-text search across large legal document collections.
+Key Features:
+- Distributed document processing
+- Advanced ranking algorithms
+- Real-time search capabilities
+- Legal-specific preprocessing
+GitHub: https://github.com/abh2050/searchengine.git
+Live Demo: https://searchenginespark.streamlit.app/
+
+9. CREDIT RISK MODELING SYSTEM
+Technology Stack: XGBoost, Logistic Regression, Pandas, NumPy, Streamlit
+Description: Machine learning system for loan default prediction that analyzes borrower characteristics and loan features to assess credit risk in real-time.
+Key Features:
+- Multiple ML algorithm comparison
+- Real-time risk assessment
+- Feature importance analysis
+- Interactive risk calculator
+
+10. STOCK MARKET ANALYSIS AND PREDICTION
+Technology Stack: RNN, LSTM, GRU, DNN, KNN, Random Forest, Yahoo Finance API
+Description: Comprehensive stock market prediction system comparing deep learning and traditional machine learning approaches for forecasting next-day closing prices.
+Key Features:
+- Multiple model architectures
+- Time series analysis
+- Performance comparison framework
+- Real-time data integration
+GitHub: https://github.com/abh2050/stockanalysis.git
+
+INDUSTRY IMPACT
+
+BMW Manufacturing Excellence:
+- Enterprise LLM platform serving 100,000+ users globally
+- AI-driven quality control improvements
+- Responsible AI framework implementation
+- Cross-functional team leadership
+
+Intel Semiconductor Innovation:
+- $250K annual savings through ML-driven defect detection
+- $100K/month cost reduction through process automation
+- Real-time quality inspection of 5M+ welds
+- 50% reduction in manual inspection labor costs
+
+Process Industry Optimization:
+- 20% reduction in raw material usage through predictive analytics
+- 25% improvement in acid consumption efficiency
+- $20,000 annual savings in consultation costs
+- 5% timeline reduction in plant shutdown projects
+
+PUBLICATIONS AND THOUGHT LEADERSHIP
+
+Technical Articles:
+1. "Advancing Fusion Energy Research With Machine Learning" - Explores ML applications in fusion research
+2. "Decision Tree and Ensemble Learning Algorithms in Machine Learning" - Technical deep-dive into CART algorithms
+3. "Overcoming Overfitting in Machine Learning" - Practical solutions for model generalization
+
+Content Strategy:
+- Regular contributor to Medium with focus on practical AI implementations
+- Technical blog covering latest developments in AI/ML
+- Podcast host discussing AI trends and industry applications
+- Active in AI/ML community discussions and knowledge sharing

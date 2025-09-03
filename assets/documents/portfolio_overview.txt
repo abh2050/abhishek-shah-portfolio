@@ -1,0 +1,71 @@
+ABHISHEK SHAH - PORTFOLIO OVERVIEW
+
+PROFESSIONAL SUMMARY
+Senior Data Scientist and AI/ML Engineer with 13+ years of experience in enterprise AI solutions, specializing in developing production-grade ML systems, LLM applications, and cloud-native AI solutions. Proven track record of leading cross-functional teams to deliver impactful business solutions through advanced analytics and machine learning.
+
+CURRENT ROLE
+Data Scientist at BMW (2024 - Present)
+- Leading development and training of enterprise LLM platform serving 100,000+ users
+- Spearheading responsible AI use cases development, ensuring alignment with business objectives
+- Collaborating with executive leadership and cross-functional teams to deploy transformative AI solutions across BMW's global manufacturing network
+
+EDUCATION
+- M.S. Artificial Intelligence & Machine Learning, University of Michigan (2022-2025)
+  Concentration: NLP | Relevant Courses: Advanced Deep Learning, ML Engineering, Cloud AI Systems
+- M.S. Engineering and Technology Management, Washington State University (2018-2020)
+  Focus: Data-Driven Decision Making, Technology Strategy
+- Bachelor of Science in Chemical Engineering, University of Minnesota (2007-2012)
+
+CORE COMPETENCIES
+- AI/ML Technologies: TensorFlow, PyTorch, HuggingFace, LangChain, OpenAI GPT, Claude
+- Cloud & DevOps: AWS SageMaker, Azure ML, Kubernetes, Docker, Airflow, Terraform
+- Data Engineering: Spark, Snowflake, Databricks, SQL, NoSQL, DataRobot, MLflow
+- Programming Languages: Python, R, SQL, JavaScript, TypeScript
+- Specialized in: Generative AI, RAG systems, Multi-agent AI, Computer Vision, NLP
+
+PROFESSIONAL EXPERIENCE HIGHLIGHTS
+BMW - Data Scientist (2024-Present)
+- Led enterprise LLM platform development serving 100,000+ users
+- Developed responsible AI use cases aligned with business objectives
+- Deployed AI solutions across BMW's global manufacturing network
+
+Intel - Data Scientist (2019-2024)
+- Built RAG pipeline with OpenAI & vector DB, automating SOW analysis for 45 engineers
+- Saved 10 hours/week per engineer, cutting $100K/month in costs
+- Developed ML model for FOUP defect detection saving $250K yearly
+- Implemented AI-driven quality control analyzing 900 welding robots
+
+Westlake Chemical - Data Analytics Process Engineer (2017-2019)
+- Utilized data analytics and statistical process control to design safeguards
+- Reduced raw material usage by 20% through optimization
+- Applied predictive modeling reducing acid consumption by 25%
+
+Tate & Lyle - Staff Data Analytics Process Engineer (2012-2017)
+- Managed $5MM+ capital projects using data analytics
+- Developed KPIs to monitor plant efficiency and optimize production planning
+- Created real-time dashboard using PI ProcessBook for enhanced process visibility
+
+RECENT PROJECTS
+1. Local RAG with DeepSeek and Ollama - SEC filings analysis using AI-driven search
+2. LangGraph Multi-Agent AI Travel Planner - Advanced multi-agent travel planning system
+3. Customer Service Multi-Agent Swarm - Specialized agents working together
+4. Agentic RAG Financial Analysis AI Assistant - AI agents for financial data analysis
+5. Customer Support Intelligence - Streamlit-based support system
+6. RAG with Neo4J Knowledge Graph - Knowledge graph integration with OpenAI
+7. Financial Document Analyzer - PDF analysis and insights extraction
+8. Legal Document Search Using NLP - Streamlit-based legal document search system
+9. Credit Risk Modeling - Loan default prediction using ML
+10. Stock Market Analysis - RNN, LSTM, GRU prediction models
+
+PUBLICATIONS & THOUGHT LEADERSHIP
+- "Advancing Fusion Energy Research With Machine Learning" (December 2022)
+- "Decision Tree and Ensemble Learning Algorithms in Machine Learning" (July 2022)
+- "Overcoming Overfitting a Model in Machine Learning" (July 2022)
+- Active contributor on Medium (@jwbtmf)
+- Spotify podcast host focusing on AI and technology trends
+
+CONTACT INFORMATION
+- LinkedIn: https://www.linkedin.com/in/abhishek175/
+- GitHub: https://github.com/abh2050
+- Medium: https://medium.com/@jwbtmf
+- Portfolio: https://abh2050.github.io/abhishek-shah-portfolio/
