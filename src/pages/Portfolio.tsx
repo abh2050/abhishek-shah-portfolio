@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import Typed from 'typed.js';
 import ScrollReveal from 'scrollreveal';
+import ChatBotOffline from '@/components/ChatBotOffline';
 
 const asset = (file: string) => `${import.meta.env.BASE_URL}assets/${file}`;
 
@@ -1054,6 +1055,9 @@ const Portfolio = () => {
           transform: translateY(0);
         }
       `}</style>
+      
+      {/* Virtual Abhishek Chatbot */}
+      <ChatBotOffline />
     </div>
   );
 };
