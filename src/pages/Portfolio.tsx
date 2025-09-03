@@ -10,15 +10,26 @@ const Portfolio = () => {
         'Senior Data Scientist',
         'AI/ML Engineer', 
         'Cloud Solutions Architect',
-        'Generative AI & MLOps Expert'
+        'Generative AI and MLOps Expert'
       ],
       typeSpeed: 50,
       backSpeed: 30,
-      backDelay: 2000,
-      loop: true
+      backDelay: 1500,
+      startDelay: 500,
+      loop: true,
+      loopCount: Infinity,
+      showCursor: true,
+      cursorChar: '|',
+      autoInsertCss: true,
     };
 
     const typed = new Typed('.multiple-text', typedOptions);
+
+    // Add error handling for typed.js
+    const typedElement = document.querySelector('.multiple-text');
+    if (!typedElement) {
+      console.warn('Typed.js target element not found');
+    }
 
     // Initialize ScrollReveal
     const sr = ScrollReveal({
@@ -71,7 +82,10 @@ const Portfolio = () => {
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      typed.destroy();
+      // Clean up typed.js instance
+      if (typed) {
+        typed.destroy();
+      }
       menuIcon?.removeEventListener('click', toggleMenu);
       window.removeEventListener('scroll', handleScroll);
     };
@@ -340,7 +354,7 @@ const Portfolio = () => {
             {/* Project 1 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/ollama_deepseek%20copy.jpg" alt="Local RAG with DeepSeek and Ollama" className="w-full h-48 object-cover" />
+                <img src="/assets/ollama_deepseek_copy.jpg" alt="Local RAG with DeepSeek and Ollama" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Local RAG with DeepSeek and Ollama</h3>
               <p className="text-text-secondary text-sm mb-4">A Streamlit app for SEC filings (10-K, 10-Q, 8-K) using Ollama, DeepSeek, OpenAI embeddings, Pinecone, and local RAG for AI-driven search, analysis, and trend comparison.</p>

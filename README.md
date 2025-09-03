@@ -36,6 +36,39 @@ npm i
 npm run dev
 ```
 
+## 🚀 Deployment
+
+This portfolio is configured for automatic deployment to GitHub Pages using GitHub Actions.
+
+### Automatic Deployment
+
+Every push to the `main` branch will automatically trigger a deployment to GitHub Pages. The site will be available at:
+`https://abh2050.github.io/abhishek-shah-portfolio/`
+
+### Manual Deployment
+
+You can also deploy manually using the provided script:
+
+```sh
+# Option 1: Use npm script (builds and deploys)
+npm run deploy
+
+# Option 2: Use deployment script directly
+./deploy.sh
+```
+
+### Deployment Process
+
+1. **GitHub Actions**: The `.github/workflows/deploy.yml` file defines the CI/CD pipeline
+2. **Build Process**: Runs `npm run build` to create production assets
+3. **Deploy**: Uploads the `dist` folder to GitHub Pages
+
+### Requirements for Deployment
+
+- Ensure GitHub Pages is enabled in your repository settings
+- Set the source to "GitHub Actions" in Pages settings
+- The repository must be public (for free GitHub Pages) or you need GitHub Pro/Team
+
 **Edit a file directly in GitHub**
 
 - Navigate to the desired file(s).
