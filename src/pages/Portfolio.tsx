@@ -197,7 +197,6 @@ const Portfolio = () => {
                 alt="Marquis Who's Who Badge" 
                 className="logo-img w-full h-auto rounded-2xl"
               />
-              <span className="circle-spin absolute top-4 right-4 w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin"></span>
             </div>
 
             <div className="space-y-6">
