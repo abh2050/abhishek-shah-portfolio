@@ -2,6 +2,8 @@ import { useEffect } from 'react';
 import Typed from 'typed.js';
 import ScrollReveal from 'scrollreveal';
 
+const asset = (file: string) => `${import.meta.env.BASE_URL}assets/${file}`;
+
 const Portfolio = () => {
   useEffect(() => {
     // Initialize Typed.js
@@ -175,7 +177,7 @@ const Portfolio = () => {
             <div className="relative">
               <div className="animate-pulse-glow rounded-2xl overflow-hidden">
                 <img 
-                  src="/assets/my-img-3.jpeg" 
+                  src={asset("my-img-3.jpeg")} 
                   alt="Abhishek Shah" 
                   className="w-full h-auto rounded-2xl object-cover"
                 />
@@ -354,7 +356,7 @@ const Portfolio = () => {
             {/* Project 1 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/ollama_deepseek_copy.jpg" alt="Local RAG with DeepSeek and Ollama" className="w-full h-48 object-cover" />
+                <img src={asset("ollama_deepseek_copy.jpg")} alt="Local RAG with DeepSeek and Ollama" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Local RAG with DeepSeek and Ollama</h3>
               <p className="text-text-secondary text-sm mb-4">A Streamlit app for SEC filings (10-K, 10-Q, 8-K) using Ollama, DeepSeek, OpenAI embeddings, Pinecone, and local RAG for AI-driven search, analysis, and trend comparison.</p>
@@ -368,7 +370,7 @@ const Portfolio = () => {
             {/* Project 2 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/Gemini_Generated_Image_mk2gn4mk2gn4mk2g.png" alt="LangGraph Multi-Agent AI Travel Planner" className="w-full h-48 object-cover" />
+                <img src={asset("Gemini_Generated_Image_mk2gn4mk2gn4mk2g.png")} alt="LangGraph Multi-Agent AI Travel Planner" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">LangGraph Multi-Agent AI Travel Planner</h3>
               <p className="text-text-secondary text-sm mb-4">A state-of-the-art multi-agent travel planning system built with LangGraph, Google Gemini Flash-2.0, and DuckDuckGo Search.</p>
@@ -382,7 +384,7 @@ const Portfolio = () => {
             {/* Project 3 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/1728761356296.png" alt="Customer Service Using Multiagent Swarm Agent" className="w-full h-48 object-cover" />
+                <img src={asset("1728761356296.png")} alt="Customer Service Using Multiagent Swarm Agent" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Customer Service Using Multiagent Swarm Agent</h3>
               <p className="text-text-secondary text-sm mb-4">This project implements a multi-agent system (Agent Swarm) that processes user requests through specialized agents working together.</p>
@@ -396,7 +398,7 @@ const Portfolio = () => {
             {/* Project 4 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/pic.jpg" alt="Agentic Rag Financial Analysis AI Assistant" className="w-full h-48 object-cover" />
+                <img src={asset("pic.jpg")} alt="Agentic Rag Financial Analysis AI Assistant" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Agentic Rag Financial Analysis AI Assistant</h3>
               <p className="text-text-secondary text-sm mb-4">This project implements AI agents using the Agno Agentic framework to fetch web search results and financial data and do Analysis using Agno Agent</p>
@@ -413,7 +415,7 @@ const Portfolio = () => {
             {/* Project 5 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/cBpvgpnFPFcg4sTN-generated_image.jpg" alt="Customer Support Intelligence with NLP and Gemini AI" className="w-full h-48 object-cover" />
+                <img src={asset("cBpvgpnFPFcg4sTN-generated_image.jpg")} alt="Customer Support Intelligence with NLP and Gemini AI" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Customer Support Intelligence with NLP and Gemini AI</h3>
               <p className="text-text-secondary text-sm mb-4">An interactive Streamlit app leveraging NLP embeddings and Gemini AI to analyze, classify, and provide insights on customer support issues</p>
@@ -430,7 +432,7 @@ const Portfolio = () => {
             {/* Project 6 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/thumbnail.png" alt="RAG With Neo4J Knowledge Graph With OpenAI" className="w-full h-48 object-cover" />
+                <img src={asset("thumbnail.png")} alt="RAG With Neo4J Knowledge Graph With OpenAI" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">RAG With Neo4J Knowledge Graph With OpenAI</h3>
               <p className="text-text-secondary text-sm mb-4">This project implements a high-performance NLP pipeline for scientific document analysis, integrating a Neo4j knowledge graph for structured storage and retrieval. The Retrieval-Augmented Generation (RAG) system enables semantic search and contextual querying of scientific literature.</p>
@@ -447,7 +449,7 @@ const Portfolio = () => {
             {/* Project 7 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/legal-document-search-icon-vector.jpg" alt="Legal Document Search Using NLP" className="w-full h-48 object-cover" />
+                <img src={asset("legal-document-search-icon-vector.jpg")} alt="Legal Document Search Using NLP" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Legal Document Search Using NLP</h3>
               <p className="text-text-secondary text-sm mb-4">A Streamlit-based legal document search system using PySpark, BM25, and TF-IDF for efficient full-text retrieval. It preprocesses legal texts, builds an inverted index, and ranks results dynamically, enabling fast, AI-powered search and analysis.</p>
@@ -464,7 +466,7 @@ const Portfolio = () => {
             {/* Project 8 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/6juepuojy5731.jpg" alt="Lyft Dynamic Pricing" className="w-full h-48 object-cover" />
+                <img src={asset("6juepuojy5731.jpg")} alt="Lyft Dynamic Pricing" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Lyft Dynamic Pricing</h3>
               <p className="text-text-secondary text-sm mb-4">A Streamlit-based Lyft Trip Cost Predictor using Linear Regression, scikit-learn, pandas, and joblib to estimate ride prices based on distance, time, and peak hours. 🚕 Optimized for dynamic pricing analysis and real-time cost estimation.</p>
@@ -481,7 +483,7 @@ const Portfolio = () => {
             {/* Project 9 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/GettyImages-82880353-064135cb483940ff9230420d095b6d31.jpg" alt="Financial Doc Analyser" className="w-full h-48 object-cover" />
+                <img src={asset("GettyImages-82880353-064135cb483940ff9230420d095b6d31.jpg")} alt="Financial Doc Analyser" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Financial Doc Analyser</h3>
               <p className="text-text-secondary text-sm mb-4">AI-powered SEC filing analysis using OpenAI embeddings, Pinecone, and Streamlit for fast, structured search. Retrieve, process, and analyze 10-K, 10-Q, and 8-K filings with instant, context-aware insights.</p>
@@ -498,7 +500,7 @@ const Portfolio = () => {
             {/* Project 10 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/blog.jpg" alt="Credit Risk Modeling" className="w-full h-48 object-cover" />
+                <img src={asset("blog.jpg")} alt="Credit Risk Modeling" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Credit Risk Modeling</h3>
               <p className="text-text-secondary text-sm mb-4">A Streamlit-based loan default prediction app using XGBoost, Logistic Regression, Pandas, and NumPy. It analyzes loan characteristics and predicts default risk in real time based on user inputs.</p>
@@ -515,7 +517,7 @@ const Portfolio = () => {
             {/* Project 11 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/image-forensics.jpg" alt="Fake Image/Video Detector Using Deep Learning and Gemini" className="w-full h-48 object-cover" />
+                <img src={asset("image-forensics.jpg")} alt="Fake Image/Video Detector Using Deep Learning and Gemini" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Fake Image/Video Detector Using Deep Learning and Gemini</h3>
               <p className="text-text-secondary text-sm mb-4">The AI Fake Image & Video Detector is a powerful Streamlit-based application designed to identify whether images or videos are AI-generated or authentic. Utilizing advanced techniques, this tool helps detect synthetic media created by popular AI models such as DALL-E, Midjourney, Stable Diffusion, and others.</p>
@@ -535,7 +537,7 @@ const Portfolio = () => {
             {/* Project 12 */}
             <div className="portfolio-box card-primary">
               <div className="overflow-hidden rounded-lg mb-4">
-                <img src="/assets/10413.jpg" alt="Stock Market Analysis" className="w-full h-48 object-cover" />
+                <img src={asset("10413.jpg")} alt="Stock Market Analysis" className="w-full h-48 object-cover" />
               </div>
               <h3 className="text-gradient mb-2">Stock Market Market Analsyis</h3>
               <p className="text-text-secondary text-sm mb-4">A stock market prediction system using RNN, LSTM, GRU, DNN, KNN, and Random Forest to forecast next-day closing prices. Built with Yahoo Finance, Pandas, Scikit-learn, and Matplotlib, it compares deep learning and machine learning models for accuracy.</p>
