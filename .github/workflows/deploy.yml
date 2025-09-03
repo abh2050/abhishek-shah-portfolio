@@ -38,7 +38,10 @@ jobs:
         run: npm ci
         
       - name: Build
-        run: npm run build
+        run: npm run build:prod
+        
+      - name: List build output
+        run: ls -la dist/
         
       - name: Setup Pages
         uses: actions/configure-pages@v4
