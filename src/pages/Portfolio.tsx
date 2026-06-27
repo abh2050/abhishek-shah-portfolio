@@ -253,11 +253,23 @@ const Portfolio = () => {
           <h2 className="text-center mb-16">Experience</h2>
           
           <div className="space-y-12">
+            {/* SSOE Experience */}
+            <div className="card-primary">
+              <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                <h3 className="text-gradient">AI Engineer / Technical Program Manager (AI Product Owner) - SSOE Group</h3>
+                <span className="text-accent font-semibold">Sep 2025 - Present</span>
+              </div>
+              <ul className="space-y-2 text-text-secondary">
+                <li>• Owned the full product lifecycle of the firm-wide enterprise AI platform (Abacus AI) at a top-10 ranked AEC firm, achieving 60% adoption within 30 days and 100% deployment by day 90 across 1,400 employees.</li>
+                <li>• Architected and shipped a production multi-agent business intelligence assistant with hybrid BM25 + dense retrieval and evidence reconciliation, reaching 100% adoption among 200+ executives and senior leadership.</li>
+              </ul>
+            </div>
+
             {/* BMW Experience */}
             <div className="card-primary">
               <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
                 <h3 className="text-gradient">Data Scientist - BMW</h3>
-                <span className="text-accent font-semibold">2024 - Present</span>
+                <span className="text-accent font-semibold">2024 - 2025</span>
               </div>
               <ul className="space-y-2 text-text-secondary">
                 <li>• Led development and training of enterprise LLM platform serving 100,000+ users</li>
@@ -265,6 +277,7 @@ const Portfolio = () => {
                 <li>• Collaborated with executive leadership and cross-functional teams to deploy transformative AI solutions across BMW's global manufacturing network.</li>
               </ul>
             </div>
+
 
             {/* Intel Experience */}
             <div className="card-primary">
