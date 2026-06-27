@@ -164,7 +164,7 @@ const Portfolio = () => {
               </h3>
               
               <p className="text-lg">
-                Senior Data Scientist | AI/ML Engineer | Cloud Solutions Architect | Leading Enterprise AI Solutions | Expert in Generative AI & MLOps
+                Senior Data Scientist | AI/ML Engineer | AI Program Manager | Cloud Solutions Architect | Leading Enterprise AI Solutions | Expert in Generative AI & MLOps
               </p>
               
               <a 
