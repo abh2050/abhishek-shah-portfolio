@@ -219,7 +219,7 @@ const Portfolio = () => {
 
             <div className="space-y-6">
               <h2>About Me</h2>
-              <h3 className="text-gradient">Senior Data Scientist</h3>
+              <h3 className="text-gradient">AI Engineer & Technical Program Manager</h3>
               <p>
                 I am a technology leader with 13+ years of experience in enterprise AI solutions, 
                 specializing in developing production-grade ML systems, LLM applications, and cloud-native AI solutions. 
