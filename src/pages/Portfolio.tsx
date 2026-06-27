@@ -10,7 +10,8 @@ const Portfolio = () => {
     const typedOptions = {
       strings: [
         'Senior Data Scientist',
-        'AI/ML Engineer', 
+        'AI/ML Engineer',
+        'AI Program Manager',
         'Cloud Solutions Architect',
         'Generative AI and MLOps Expert'
       ],
@@ -163,7 +164,7 @@ const Portfolio = () => {
               </h3>
               
               <p className="text-lg">
-                Senior Data Scientist | AI/ML Engineer | Cloud Solutions Architect | Leading Enterprise AI Solutions | Expert in Generative AI & MLOps
+                Senior Data Scientist | AI/ML Engineer | AI Program Manager | Cloud Solutions Architect | Leading Enterprise AI Solutions | Expert in Generative AI & MLOps
               </p>
               
               <a 
@@ -218,7 +219,7 @@ const Portfolio = () => {
 
             <div className="space-y-6">
               <h2>About Me</h2>
-              <h3 className="text-gradient">Senior Data Scientist</h3>
+              <h3 className="text-gradient">AI Engineer & Technical Program Manager</h3>
               <p>
                 I am a technology leader with 13+ years of experience in enterprise AI solutions, 
                 specializing in developing production-grade ML systems, LLM applications, and cloud-native AI solutions. 
