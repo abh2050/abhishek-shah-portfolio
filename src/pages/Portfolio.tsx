@@ -1,6 +1,5 @@
 import { useEffect } from 'react';
 import Typed from 'typed.js';
-import ScrollReveal from 'scrollreveal';
 import VirtualAbhishekChatBotSimple from '@/components/VirtualAbhishekChatBotSimple';
 
 const asset = (file: string) => `${import.meta.env.BASE_URL}assets/${file}`;
@@ -33,21 +32,6 @@ const Portfolio = () => {
     if (!typedElement) {
       console.warn('Typed.js target element not found');
     }
-
-    // Initialize ScrollReveal
-    const sr = ScrollReveal({
-      origin: 'top',
-      distance: '80px',
-      duration: 2000,
-      reset: false
-    });
-
-    sr.reveal('.home', { origin: 'left' });
-    sr.reveal('.about', { origin: 'right' });
-    sr.reveal('.education-content', { origin: 'left' });
-    sr.reveal('.portfolio-box', { interval: 200 });
-    sr.reveal('.publication-box', { interval: 100 });
-    sr.reveal('.podcast-card', { interval: 100 });
 
     // Smooth scroll function for navigation
     const smoothScrollTo = (targetId: string) => {
