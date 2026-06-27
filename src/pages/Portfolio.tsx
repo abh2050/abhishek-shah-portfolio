@@ -10,7 +10,8 @@ const Portfolio = () => {
     const typedOptions = {
       strings: [
         'Senior Data Scientist',
-        'AI/ML Engineer', 
+        'AI/ML Engineer',
+        'AI Program Manager',
         'Cloud Solutions Architect',
         'Generative AI and MLOps Expert'
       ],
