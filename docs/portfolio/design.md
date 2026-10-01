@@ -2,17 +2,19 @@
 
 ## Tokens
 
-One light theme (no dark mode, per plan). Defined in `src/index.css`.
+One light theme with dark-blue feature sections. The owner-selected palette (2026-10-01) is defined in `src/index.css`.
 
-| Token | Value | Use |
-|---|---|---|
-| `--paper` | `#faf9f6` | Page background (warm white) |
-| `--ink` | `#1c293b` | Headings and body emphasis |
-| `--quiet` | `#596574` | Body copy, captions |
-| `--blue` | `#1f4d8a` | Single accent: links, eyebrows, primary button |
-| `--line` | `#d8dce1` | Thin borders and rules |
+| Color | Hex | Use | Contrast |
+|---|---|---|---|
+| Dark grey | `#3b3634` | Body text and headings (`--ink`, `--quiet`), footer background | 11.9:1 on white |
+| Dark blue | `#013e5b` | Links, eyebrows, primary button, hero/contact/table-header backgrounds (`--blue`) | 11.4:1 on white |
+| Blue | `#2794f1` | **Non-text accents only**: card top rules, finding bars, dots, focus ring | 3.2:1 on white, fails AA as text |
+| Light blue | `#a3e6ff` | Delivery band, status labels, accent text and buttons on dark blue | 8.3:1 against dark blue |
+| Light grey | `#b6c0c1` | Borders and rules; secondary text on dark blue | 6.1:1 against dark blue |
 
-Type: Inter/system sans for UI and body; Georgia italic for kickers; monospace for eyebrows and metadata. Focus ring: 3px `#2563eb`, 5px offset.
+Derived tints: `#eef9ff` (light-blue tint for figure and card backgrounds) and `#f2f4f4` (limitations panel).
+
+Type: Inter/system sans for UI and body (18px base); Georgia italic for kickers; monospace for eyebrows (600 weight). Every size below 28px was raised by 2–4px, so the smallest text is now 12px (previously 8px). Focus ring: 3px `#2794f1`, or `#a3e6ff` on dark sections.
 
 ## Layout and responsiveness
 

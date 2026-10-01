@@ -485,7 +485,7 @@
     "sourceSha": null,
     "sourcePath": "scripts/social-card.mjs",
     "sourceUrl": null,
-    "sourceHash": "f1986c795bfd47a186a94bed1c017b73336d0335f9d04fb28fb864e46a1debb5",
+    "sourceHash": "66bccdc1c1ec0032a1cf13a67aa87a677f5e24ab1faa1ceec520f60a6021692e",
     "rights": "Original portfolio typography/layout. Social card includes owner-authorized portrait and source artifacts; input provenance retained in assets.json.",
     "attribution": "Abhishek Shah",
     "alt": "Abhishek Shah, AI Architect & Technical Program Manager, portrait and project evidence.",
@@ -505,8 +505,8 @@
         "width": 1200,
         "height": 630,
         "format": "png",
-        "bytes": 110196,
-        "sha256": "a8d90d76e6bd3d255142e1154528c60d90dd531d49fac413cdcb339697bfbac0"
+        "bytes": 110603,
+        "sha256": "bae7ab3c32a3bdd9eb21cca1f02799106342e10fe3e3d7a2103c718cb81e0f91"
       }
     ]
   },
@@ -516,7 +516,7 @@
     "sourceSha": null,
     "sourcePath": "scripts/social-card.mjs",
     "sourceUrl": null,
-    "sourceHash": "f6293c2bb8ef333c606b78fa43b91588269e1f849b5b1af52079e13e6770b611",
+    "sourceHash": "cce2791525c0a3210334b95ec06264bb2059b919f527fca738ded4fd0641dab2",
     "rights": "Original portfolio typography/layout. Social card includes owner-authorized portrait and source artifacts; input provenance retained in assets.json.",
     "attribution": "Abhishek Shah",
     "alt": "AS monogram",
@@ -533,7 +533,7 @@
         "height": 64,
         "format": "svg",
         "bytes": 269,
-        "sha256": "f6293c2bb8ef333c606b78fa43b91588269e1f849b5b1af52079e13e6770b611"
+        "sha256": "cce2791525c0a3210334b95ec06264bb2059b919f527fca738ded4fd0641dab2"
       }
     ]
   }

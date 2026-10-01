@@ -33,6 +33,10 @@ Horizontal overflow detected: **0 of 22** page captures (also asserted by the ax
 
 Targets 90/95/95/95 met. Raw reports: `verification/lighthouse-home.json`, `verification/lighthouse-case.json`.
 
+## Palette and type revision (2026-10-01)
+
+Applied the owner-selected palette and a larger type scale (see `design.md`). After the change: axe found 0 contrast violations at 390 and 1440 px, captures showed 0 overflow, and Lighthouse was unchanged (98/100/100/100 and 99/100/100/100). Fixed "Read case study" wrapping on the narrowest card, and widened the hero portrait card for the larger text.
+
 ## Issues found and fixed during review
 
 - Missing space in the hero heading's accessible name.
