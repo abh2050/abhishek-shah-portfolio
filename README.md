@@ -1,106 +1,55 @@
-# Welcome to your Lovable project
+# Abhishek Shah — portfolio
 
-## Project info
+Source for <https://abh2050.github.io/abhishek-shah-portfolio/>: six evidence-backed case studies, career history, writing, and a downloadable résumé.
 
-**URL**: https://lovable.dev/projects/9481064b-fc84-4f28-8888-bc353c77abd7
+React 18 · TypeScript · Vite 6 · Tailwind · React Router 7 (HashRouter) · GitHub Pages. No backend.
 
-## How can I edit this code?
-
-There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/9481064b-fc84-4f28-8888-bc353c77abd7) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
-
-**Use your preferred IDE**
-
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
-
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+## Setup
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+nvm use            # Node 24 (.nvmrc)
+npm ci
+npm run dev        # http://localhost:8080/abhishek-shah-portfolio/
 ```
 
-## 🚀 Deployment
+## Where content lives
 
-This portfolio is configured for automatic deployment to GitHub Pages using GitHub Actions.
+| File | Contents |
+|---|---|
+| `src/content/profile.ts` | Name, current title/employer, contact links, résumé path |
+| `src/content/experience.ts`, `education.ts` | Career and education |
+| `src/content/projects.ts` | The six case studies (order = homepage order) |
+| `src/content/evidence.ts` | Claims register: every displayed metric with scope, limitation, and source at a pinned commit |
+| `src/content/assets.ts` | Image metadata; provenance in `docs/portfolio/assets.json` |
+| `src/content/writing.ts` | Articles and podcasts for the archive |
+| `public/resume/Abhishek-Shah-Resume.pdf` | Current résumé (owner-supplied) |
 
-### Automatic Deployment
+Changing the current role: update `profile.title` and `experience[0].title` together (the content check enforces they match), plus `jobTitle` in the JSON-LD in `index.html`.
 
-Every push to the `main` branch will automatically trigger a deployment to GitHub Pages. The site will be available at:
-`https://abh2050.github.io/abhishek-shah-portfolio/`
+Updating the résumé: replace `public/resume/Abhishek-Shah-Resume.pdf` with the new PDF. Keep the filename or update `profile.resume`.
 
-### Manual Deployment
+Adding images: put sources where `scripts/prepare-assets.mjs` expects them and run `npm run assets:prepare`. The content check rejects any shipped image that has no provenance record.
 
-You can also deploy manually using the provided script:
+## Verification
 
 ```sh
-# Option 1: Use npm script (builds and deploys)
-npm run deploy
-
-# Option 2: Use deployment script directly
-./deploy.sh
+npm run verify     # typecheck → lint → build → check:content → test:e2e → check:release
 ```
 
-### Deployment Process
+Results go to `docs/portfolio/verification/verify.json`, with one log per step. The Playwright suite runs against the production build at `/abhishek-shah-portfolio/`. It covers navigation, all six case studies, refresh/back, unknown routes, FAQ, the figure viewer, the résumé PDF, archive embeds, metadata, axe (WCAG 2.1 AA) at 390/1440, and reduced motion.
 
-1. **GitHub Actions**: The `.github/workflows/deploy.yml` file defines the CI/CD pipeline
-2. **Build Process**: Runs `npm run build` to create production assets
-3. **Deploy**: Uploads the `dist` folder to GitHub Pages
+Other scripts:
 
-### Requirements for Deployment
+- `npm run capture`: screenshots at 360–1440 px into `docs/portfolio/verification/screenshots/` (git-ignored). Needs `npm run preview` running.
+- `npm run check:links`: checks external links (network required).
+- Lighthouse: `npx lighthouse http://127.0.0.1:4173/abhishek-shah-portfolio/ --output=json --output-path=docs/portfolio/verification/lighthouse-home.json`
 
-- Ensure GitHub Pages is enabled in your repository settings
-- Set the source to "GitHub Actions" in Pages settings
-- The repository must be public (for free GitHub Pages) or you need GitHub Pro/Team
+No test provisions infrastructure, calls a model, or reruns a project evaluation.
 
-**Edit a file directly in GitHub**
+## Deployment
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+See [DEPLOYMENT.md](DEPLOYMENT.md). A push to `main` builds, runs `check:release`, and deploys to GitHub Pages.
 
-**Use GitHub Codespaces**
+## Project records
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/9481064b-fc84-4f28-8888-bc353c77abd7) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+`docs/portfolio/` holds the audit, project research, claims register, design decisions, visual review, and release status (`completion.md`).

@@ -1,57 +1,31 @@
-# GitHub Pages Deployment Checklist
+# Deployment
 
-## Before First Deployment
+The site is served by GitHub Pages from `https://abh2050.github.io/abhishek-shah-portfolio/`. Vite's `base` is `/abhishek-shah-portfolio/` (override with `VITE_BASE_PATH`); asset URLs are resolved through `src/lib/urls.ts`.
 
-### 1. Repository Settings
-- [ ] Repository is public (required for free GitHub Pages)
-- [ ] Go to Repository Settings > Pages
-- [ ] Set Source to "Deploy from a branch" and select "GitHub Actions"
+## One-time setup
 
-### 2. Repository Permissions
-- [ ] Ensure GitHub Actions are enabled in repository settings
-- [ ] Check that Actions have write permissions
+Repository Settings → Pages → Source: **GitHub Actions**.
 
-## Deployment Options
+## Release
 
-### Option 1: Automatic Deployment (Recommended)
-1. Commit and push your changes to the `main` branch
-2. GitHub Actions will automatically build and deploy
-3. Check the Actions tab for deployment status
-4. Site will be available at: `https://abh2050.github.io/abhishek-shah-portfolio/`
+1. On the feature branch: `npm run verify`. Every step in `docs/portfolio/verification/verify.json` should be `passed`.
+2. Open a PR to `main`, review it, and merge.
+3. `.github/workflows/deploy.yml` (Node 24) runs `npm ci`, `npm run build:prod`, then `npm run check:release`. The release check blocks the deploy if the résumé PDF, required docs, or passing verification reports are missing.
+4. The workflow uploads `dist/` and deploys it. Check the Actions tab, then smoke-test the live site: home, one case study, the mobile menu, and the résumé download.
 
-### Option 2: Manual Deployment
-```bash
-# Run the deployment script
-./deploy.sh
+`./deploy.sh` is a legacy manual helper. The Actions workflow is the supported path.
 
-# Or use npm script
-npm run deploy
-```
+## Rollback
+
+Pages serves the most recent successful deployment, so roll back by redeploying a known-good commit:
+
+- `git revert <merge-commit>` on `main` and push. The workflow redeploys the previous content.
+- Or re-run the last good "Deploy to GitHub Pages" workflow run from the Actions tab.
+
+The baseline before this rebuild is commit `5a0b3da`.
 
 ## Troubleshooting
 
-### Common Issues:
-1. **404 Error**: Check that GitHub Pages is enabled and source is set correctly
-2. **Build Fails**: Check the Actions tab for error logs
-3. **Images Not Loading**: Ensure images are in `public/assets/` folder
-4. **CSS/JS Not Loading**: Check the base URL configuration in `vite.config.ts`
-
-### Useful Commands:
-```bash
-# Test production build locally
-npm run build:prod
-npm run preview
-
-# Check for linting issues
-npm run lint
-
-# View deployment status
-# Go to: https://github.com/abh2050/abhishek-shah-portfolio/actions
-```
-
-## Post-Deployment
-- [ ] Test all pages and functionality
-- [ ] Verify images and assets load correctly
-- [ ] Check mobile responsiveness
-- [ ] Test all links and navigation
-- [ ] Verify animations work properly
+- **Blank page or 404s for JS/CSS:** the base path doesn't match the repository name. Check `base` in `vite.config.ts`.
+- **Deploy blocked by `check:release`:** read `docs/portfolio/verification/release.json` for the blocker list.
+- **Deep link 404:** routes are hash-based (`/#/projects/...`). `public/404.html` redirects legacy non-hash paths.

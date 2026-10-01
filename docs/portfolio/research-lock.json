@@ -1,0 +1,56 @@
+[
+  {
+    "repo": "enterprise-rag-aws",
+    "branch": "main",
+    "sha": "e7a4f5b08c35ffa666e4c1d45b47208c6a96462a",
+    "retrieved": "2026-10-01",
+    "license": null
+  },
+  {
+    "repo": "yieldloop-wafer-triage-with-HIL",
+    "branch": "main",
+    "sha": "a635a3f71abf2416b08cb1a7b9fc669f8dca16a3",
+    "retrieved": "2026-10-01",
+    "license": {
+      "key": "other",
+      "name": "Other",
+      "spdx_id": "NOASSERTION",
+      "url": null,
+      "node_id": "MDc6TGljZW5zZTA="
+    }
+  },
+  {
+    "repo": "edge-ai-inspection-gates",
+    "branch": "main",
+    "sha": "84d9fc9c21e82f36634d0e27062590e2b6fdb565",
+    "retrieved": "2026-10-01",
+    "license": null
+  },
+  {
+    "repo": "sentinel-ai",
+    "branch": "main",
+    "sha": "cdcce69650180b588c5f0a01851736248683c2f3",
+    "retrieved": "2026-10-01",
+    "license": {
+      "key": "apache-2.0",
+      "name": "Apache License 2.0",
+      "spdx_id": "Apache-2.0",
+      "url": "https://api.github.com/licenses/apache-2.0",
+      "node_id": "MDc6TGljZW5zZTI="
+    }
+  },
+  {
+    "repo": "fault-triage-ai",
+    "branch": "main",
+    "sha": "cebf685a09eda62890d7af809bb02ab0e1e82721",
+    "retrieved": "2026-10-01",
+    "license": null
+  },
+  {
+    "repo": "mlx-sft-pubmedqa",
+    "branch": "main",
+    "sha": "33771f9271cb4110e049dbc50189c3902799fe64",
+    "retrieved": "2026-10-01",
+    "license": null
+  }
+]

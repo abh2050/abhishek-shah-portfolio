@@ -1,27 +1,8 @@
-import { Toaster } from "@/components/ui/toaster";
-import { Toaster as Sonner } from "@/components/ui/sonner";
-import { TooltipProvider } from "@/components/ui/tooltip";
-import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { HashRouter, Routes, Route } from "react-router-dom";
-import Portfolio from "./pages/Portfolio";
-import NotFound from "./pages/NotFound";
-
-const queryClient = new QueryClient();
-
-const App = () => (
-  <QueryClientProvider client={queryClient}>
-    <TooltipProvider>
-      <Toaster />
-      <Sonner />
-      <HashRouter>
-        <Routes>
-          <Route path="/" element={<Portfolio />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
-      </HashRouter>
-    </TooltipProvider>
-  </QueryClientProvider>
-);
-
-export default App;
+import { HashRouter, Navigate, Routes, Route } from 'react-router-dom';
+import { Layout } from '@/components/layout/Layout';
+import Home from '@/pages/Home';
+import ProjectCaseStudy from '@/pages/ProjectCaseStudy';
+import Writing from '@/pages/Writing';
+import NotFound from '@/pages/NotFound';
+import { legacySections, sectionUrl } from '@/lib/urls';
+export default function App() { return <HashRouter><Layout><Routes><Route path="/" element={<Home/>}/><Route path="/projects/:slug" element={<ProjectCaseStudy/>}/><Route path="/writing" element={<Writing/>}/>{Object.entries(legacySections).map(([old,id])=><Route key={old} path={`/${old}`} element={<Navigate replace to={id==='archive'?'/writing':sectionUrl(id)}/>}/>)}<Route path="*" element={<NotFound/>}/></Routes></Layout></HashRouter>; }
