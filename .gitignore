@@ -22,3 +22,12 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Browser artifacts; report indexes and representative captures are retained.
+test-results/
+playwright-report/
+docs/portfolio/verification/screenshots/
+docs/portfolio/verification/*.log
+
+# Local copy of the owner résumé; the published copy is public/resume/Abhishek-Shah-Resume.pdf
+/Profile.pdf

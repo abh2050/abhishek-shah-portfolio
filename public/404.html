@@ -1,18 +1,7 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Abhishek Shah Portfolio</title>
-    <script type="text/javascript">
-      // GitHub Pages SPA redirect for HashRouter
-      // This script redirects any path to the root with a hash
-      var l = window.location;
-      var redirect = l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
-        l.pathname.replace(/\/[^\/]*$/, '/') + '#' + l.pathname.slice(1) + l.search;
-      l.replace(redirect);
-    </script>
-  </head>
-  <body>
-    <p>Redirecting...</p>
-  </body>
-</html>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Page not found — Abhishek Shah</title></head><body><h1>Finding your portfolio page…</h1><p><a href="/abhishek-shah-portfolio/">Return to the portfolio</a></p><script>
+(function () {
+  var base = '/abhishek-shah-portfolio/';
+  var path = location.pathname.indexOf(base) === 0 ? location.pathname.slice(base.length) : location.pathname.slice(1);
+  location.replace(base + '#/' + path.replace(/^\/+/, '') + location.search);
+})();
+</script></body></html>

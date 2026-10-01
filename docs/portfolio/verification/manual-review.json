@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "reviewedAt": "2026-10-01",
+  "reviewer": "Claude Code (manual screenshot and keyboard review)",
+  "scope": [
+    "home at 360, 390, 768, 1024, 1440",
+    "enterprise-rag-aws at 360, 390, 768, 1024, 1440",
+    "all six case studies at 390 and 1440",
+    "writing archive, not-found, mobile menu, reduced motion at 390"
+  ],
+  "overflow": 0,
+  "notes": "See docs/portfolio/visual-review.md for findings and fixes."
+}

@@ -1,0 +1,36 @@
+{
+  "checkedAt": "2026-10-01T23:23:12.539Z",
+  "node": "v24.21.0",
+  "results": [
+    {
+      "command": "typecheck",
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "command": "lint",
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "command": "build",
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "command": "check:content",
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "command": "test:e2e",
+      "status": "passed",
+      "exitCode": 0
+    },
+    {
+      "command": "check:release",
+      "status": "passed",
+      "exitCode": 0
+    }
+  ]
+}

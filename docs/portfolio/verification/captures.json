@@ -1,0 +1,137 @@
+{
+  "capturedAt": "2026-10-01T23:18:22.417Z",
+  "records": [
+    {
+      "route": "",
+      "width": 360,
+      "path": "docs/portfolio/verification/screenshots/home-360.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/enterprise-rag-aws",
+      "width": 360,
+      "path": "docs/portfolio/verification/screenshots/enterprise-rag-aws-360.png",
+      "overflow": false
+    },
+    {
+      "route": "",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/home-390.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/enterprise-rag-aws",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/enterprise-rag-aws-390.png",
+      "overflow": false
+    },
+    {
+      "route": "",
+      "width": 768,
+      "path": "docs/portfolio/verification/screenshots/home-768.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/enterprise-rag-aws",
+      "width": 768,
+      "path": "docs/portfolio/verification/screenshots/enterprise-rag-aws-768.png",
+      "overflow": false
+    },
+    {
+      "route": "",
+      "width": 1024,
+      "path": "docs/portfolio/verification/screenshots/home-1024.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/enterprise-rag-aws",
+      "width": 1024,
+      "path": "docs/portfolio/verification/screenshots/enterprise-rag-aws-1024.png",
+      "overflow": false
+    },
+    {
+      "route": "",
+      "width": 1440,
+      "path": "docs/portfolio/verification/screenshots/home-1440.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/enterprise-rag-aws",
+      "width": 1440,
+      "path": "docs/portfolio/verification/screenshots/enterprise-rag-aws-1440.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/yieldloop-wafer-triage-with-HIL",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/yieldloop-wafer-triage-with-HIL-390.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/yieldloop-wafer-triage-with-HIL",
+      "width": 1440,
+      "path": "docs/portfolio/verification/screenshots/yieldloop-wafer-triage-with-HIL-1440.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/edge-ai-inspection-gates",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/edge-ai-inspection-gates-390.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/edge-ai-inspection-gates",
+      "width": 1440,
+      "path": "docs/portfolio/verification/screenshots/edge-ai-inspection-gates-1440.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/sentinel-ai",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/sentinel-ai-390.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/sentinel-ai",
+      "width": 1440,
+      "path": "docs/portfolio/verification/screenshots/sentinel-ai-1440.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/fault-triage-ai",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/fault-triage-ai-390.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/fault-triage-ai",
+      "width": 1440,
+      "path": "docs/portfolio/verification/screenshots/fault-triage-ai-1440.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/mlx-sft-pubmedqa",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/mlx-sft-pubmedqa-390.png",
+      "overflow": false
+    },
+    {
+      "route": "#/projects/mlx-sft-pubmedqa",
+      "width": 1440,
+      "path": "docs/portfolio/verification/screenshots/mlx-sft-pubmedqa-1440.png",
+      "overflow": false
+    },
+    {
+      "route": "#/writing",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/archive-390.png",
+      "overflow": false
+    },
+    {
+      "route": "#/missing",
+      "width": 390,
+      "path": "docs/portfolio/verification/screenshots/not-found-390.png",
+      "overflow": false
+    }
+  ]
+}
