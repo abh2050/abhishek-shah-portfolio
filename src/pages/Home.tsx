@@ -6,7 +6,8 @@ import { education } from '@/content/education';
 import { projects } from '@/content/projects';
 import { writing } from '@/content/writing';
 import { getAsset } from '@/content/assets';
-import { ProjectCard } from '@/components/portfolio/ProjectCard';
+import { MoreProjectTile, ProjectCard } from '@/components/portfolio/ProjectCard';
+import { moreProjectGroups, moreProjects } from '@/content/more-projects';
 import { ExternalLink, PageMeta, ResumeLink } from '@/components/portfolio/Shared';
 import { assetUrl, sectionUrl } from '@/lib/urls';
 const selectedWriting = ['autoencoders','fusion-energy','recommender-system'].map(term => writing.find(w=>w.url.includes(term))).filter(Boolean);
@@ -15,17 +16,26 @@ export default function Home() {
   return <>
     <PageMeta title={profile.name} description={profile.description}/>
     <section className="hero shell" id="home" tabIndex={-1}>
-      <div className="hero-copy"><p className="eyebrow hero-eyebrow"><span className="status-dot"/> {profile.location} <span className="separator">/</span> Enterprise AI · Industrial ML</p>
+      <div className="hero-copy"><p className="eyebrow hero-eyebrow"><span className="status-dot"/>{profile.employer} <span className="separator">·</span> {profile.location}</p>
         <h1>AI Architect &amp; <br/><span>Technical Program Manager</span></h1>
         <p className="hero-description">{profile.description}</p>
         <div className="hero-actions"><Link className="button primary" to={sectionUrl('work')}>Explore selected work <ArrowDown size={17}/></Link><ResumeLink className="button secondary"/></div>
         <a className="hero-contact" href={`mailto:${profile.email}`}>Let’s talk about your next AI system <ArrowUpRight size={16}/></a>
       </div>
-      <aside className="profile-note" aria-label="About Abhishek"><img className="portrait" src={assetUrl(portrait.path)} width={portrait.width} height={portrait.height} alt="Portrait of Abhishek Shah" fetchPriority="high"/><div className="profile-note-body"><p className="eyebrow">Engineer → AI architect</p><p>From the physical process <br/>to the intelligent system.</p><span>Currently leading AI programs <br/>at {profile.employer}.</span></div></aside>
+      <aside className="profile-note" aria-label="About Abhishek"><img className="portrait" src={assetUrl(portrait.path)} width={portrait.width} height={portrait.height} alt="Portrait of Abhishek Shah" fetchPriority="high"/><div className="profile-note-body"><p>From the physical process to the intelligent system.</p><span>{profile.title}</span></div></aside>
     </section>
-    <div className="discipline-strip"><div className="shell"><span>Systems thinking, end to end</span><p>Enterprise architecture <i/> Industrial machine learning <i/> Agent reliability <i/> Technical delivery</p></div></div>
-    <section className="section shell work-section" id="work" tabIndex={-1}><div className="section-heading"><div><p className="eyebrow">01 / Selected work</p><h2>Built. Measured.<br/><span className="serif">Open to inspection.</span></h2></div><p>Independent engineering projects.<br/>Real artifacts, explicit boundaries,<br/>and the results—including the misses.</p></div>
+    <div className="credentials"><div className="shell"><dl>
+      <div><dt>Since 2012</dt><dd>Process engineering to enterprise AI</dd></div>
+      <div><dt>SSOE · BMW · Intel</dt><dd>AI programs, enablement, and analytics</dd></div>
+      <div><dt>Two master’s degrees</dt><dd>AI &amp; ML · Engineering management</dd></div>
+      <div><dt>PMP</dt><dd>Project Management Professional</dd></div>
+    </dl></div></div>
+    <section className="section shell work-section" id="work" tabIndex={-1}><div className="section-heading"><div><p className="eyebrow">01 / Selected work</p><h2>Built. Measured.<br/><span className="serif">Open to inspection.</span></h2></div><p>Six independent systems with full case studies:<br/>architecture, recorded results, and the limits<br/>of what each result shows.</p></div>
       <div className="projects-grid">{projects.map((project,index)=><ProjectCard key={project.slug} project={project} index={index}/>)}</div>
+      <div className="more-work" id="more-work"><div className="more-heading"><h3>More from the workshop</h3><p>Further public repositories, from agent architectures to industrial ML. Each links to its source.</p></div>
+        {moreProjectGroups.map(group=><section key={group} className="more-group" aria-label={group}><p className="eyebrow">{group}</p><div className="more-grid">{moreProjects.filter(p=>p.group===group).map(p=><MoreProjectTile key={p.slug} project={p}/>)}</div></section>)}
+        <ExternalLink className="text-link more-all" href={profile.github}>All repositories on GitHub</ExternalLink>
+      </div>
     </section>
     <section className="delivery-section" id="delivery" tabIndex={-1}><div className="shell delivery-grid"><div><p className="eyebrow">02 / Enterprise delivery</p><h2>Architecture is only useful<br/>when teams can use it.</h2><p className="section-intro">My organizational work connects technical design, governance, and the people responsible for delivery.</p><p className="delivery-note">Employment work is separate from the independent projects above. Internal systems and customer material remain confidential; public code is not presented as an employer deployment.</p></div><div className="delivery-list">
       <article><span>01</span><div><h3>AI platforms & governance</h3><p>At SSOE Group, AI program delivery includes enterprise platform governance, vendor oversight, and RAG and agent workstreams.</p></div></article>

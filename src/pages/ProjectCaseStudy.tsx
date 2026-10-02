@@ -3,6 +3,7 @@ import { ArrowLeft, ArrowRight } from 'lucide-react';
 import { projects } from '@/content/projects';
 import { getClaim } from '@/content/evidence';
 import { Figure } from '@/components/case-study/Figure';
+import { ProjectIcon } from '@/components/portfolio/ProjectCard';
 import { ExternalLink, PageMeta } from '@/components/portfolio/Shared';
 import NotFound from './NotFound';
 export default function ProjectCaseStudy() {
@@ -12,7 +13,7 @@ export default function ProjectCaseStudy() {
   return <article className="case-study shell">
     <PageMeta title={project.title} description={project.summary}/>
     <Link to="/?section=work" className="back-link"><ArrowLeft size={16}/>Selected work</Link>
-    <header className="case-header"><p className="eyebrow">{project.category} <span className="separator">/</span> Independent project</p><h1>{project.title}</h1><p className="case-kicker">{project.kicker}</p><p className="case-summary">{project.summary}</p><div className="case-meta"><span className="status-label">{project.status}</span><span>{project.stack.join(' · ')}</span></div><div className="case-actions"><ExternalLink href={project.evidenceUrl} className="button primary">View evidence</ExternalLink><ExternalLink href={project.repository} className="button secondary">Source code</ExternalLink>{project.viewer && <ExternalLink href={project.viewer}>{project.viewerLabel}</ExternalLink>}</div></header>
+    <header className="case-header"><div className="case-header-copy"><p className="eyebrow">{project.category} <span className="separator">/</span> Independent project</p><h1>{project.title}</h1><p className="case-kicker">{project.kicker}</p><p className="case-summary">{project.summary}</p><div className="case-meta"><span className="status-label">{project.status}</span><span>{project.stack.join(' · ')}</span></div><div className="case-actions"><ExternalLink href={project.evidenceUrl} className="button primary">View evidence</ExternalLink><ExternalLink href={project.repository} className="button secondary">Source code</ExternalLink>{project.viewer && <ExternalLink href={project.viewer}>{project.viewerLabel}</ExternalLink>}</div></div><ProjectIcon slug={project.slug} size={240} eager/></header>
     <aside className="scope-note"><strong>Read this result in context</strong><p>{project.cardFinding}</p></aside>
     <Figure id={project.visuals[0]} priority/>
     <div className="case-body"><aside className="case-nav"><p className="eyebrow">In this case study</p><a href="#problem" onClick={e=>jump(e,'problem')}>Problem & contribution</a><a href="#architecture" onClick={e=>jump(e,'architecture')}>Architecture & decisions</a><a href="#results" onClick={e=>jump(e,'results')}>Recorded results</a><a href="#limitations" onClick={e=>jump(e,'limitations')}>Limits & next steps</a></aside>

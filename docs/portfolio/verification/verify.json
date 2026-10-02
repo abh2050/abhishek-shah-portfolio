@@ -1,6 +1,6 @@
 {
-  "checkedAt": "2026-10-01T23:35:39.258Z",
-  "node": "v24.21.0",
+  "checkedAt": "2026-10-02T03:11:46.967Z",
+  "node": "v25.1.0",
   "results": [
     {
       "command": "typecheck",
