@@ -1,0 +1,344 @@
+[
+  {
+    "slug": "yieldloop-wafer-triage-with-HIL",
+    "file": "assets/generated/icons/yieldloop-wafer-triage-with-HIL.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a thin round silicon wafer disc etched with a fine grid of tiny square dies, three dies tinted copper. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "06583755-bdb7-4e0b-9c88-6f567f6cb884",
+    "generatedAt": "2026-10-02T02:49:26.307Z",
+    "sourceHash": "de7242f73d8d51278b052b2bdc0cea82159824391dde8964fc67ec1f43344a36",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/yieldloop-wafer-triage-with-HIL.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 17396,
+      "sha256": "d5426dc8ac8b4be372c506dd159771b0e5db5f9ba3e1b3463343170416d5a9e3"
+    }
+  },
+  {
+    "slug": "enterprise-rag-aws",
+    "file": "assets/generated/icons/enterprise-rag-aws.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a neat stack of documents with a small padlock and a search magnifier resting on top. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "e17a679a-330c-47c1-ab4e-828f8c3cea44",
+    "generatedAt": "2026-10-02T02:49:15.301Z",
+    "sourceHash": "c73483522ac48eb2a2b6fe586e6167b288329cc0b9aa53b49453220d7b6e70b1",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/enterprise-rag-aws.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 14572,
+      "sha256": "46fad0bfc86b3d2c6b9dd02943a5eefa29fa76e87e4c15af74a48ef562015db9"
+    }
+  },
+  {
+    "slug": "edge-ai-inspection-gates",
+    "file": "assets/generated/icons/edge-ai-inspection-gates.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a compact edge computing chip with a small camera lens on top, beside a short conveyor belt. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "551cc4ce-74fb-464e-9259-0646c8f12267",
+    "generatedAt": "2026-10-02T02:49:37.061Z",
+    "sourceHash": "ee823fa525663c259abd0506288d54b424748dcdfd81b4e27908a1369dabcdb9",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/edge-ai-inspection-gates.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 10790,
+      "sha256": "11da5c103e7e17e4440151fc3e118298b8a9454bec4340026eae87360521ea45"
+    }
+  },
+  {
+    "slug": "sentinel-ai",
+    "file": "assets/generated/icons/sentinel-ai.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a shield with a pulse line across it, connected to small server blocks. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "7cf4418c-34c8-4c21-9232-a4c71e5c6c27",
+    "generatedAt": "2026-10-02T02:49:47.880Z",
+    "sourceHash": "ac5a47a12efaffa5d50bde403466fe4c7fb8f72fb0456097428471c6dbe11724",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/sentinel-ai.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 9410,
+      "sha256": "c2ed140aa2ddae535c657009575c6b2ae7247e2304ff3f23605cc6cc59a7e0af"
+    }
+  },
+  {
+    "slug": "fault-triage-ai",
+    "file": "assets/generated/icons/fault-triage-ai.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "an industrial process tower with pipes and a small gauge, one valve highlighted. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "886c6a1b-7775-438b-9ef9-fd5808181219",
+    "generatedAt": "2026-10-02T02:49:58.665Z",
+    "sourceHash": "e17414cf2fd7f152c6f01517329ffed90a36840aead189a545ef2786adc845f1",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/fault-triage-ai.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 9366,
+      "sha256": "fabbea065f7a291362448f7843716445cd40cd2a7651643e549d5085e1bcd852"
+    }
+  },
+  {
+    "slug": "mlx-sft-pubmedqa",
+    "file": "assets/generated/icons/mlx-sft-pubmedqa.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a laptop-sized aluminum slab with a glowing neural network node cluster above it and a small medical cross. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "7e6fb1fa-be66-4722-b90f-0aac2226ae34",
+    "generatedAt": "2026-10-02T02:50:09.383Z",
+    "sourceHash": "7a3f25812dbd0459682cd147a4725111faf4b77156fcd191e76b0767360790cf",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/mlx-sft-pubmedqa.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 12822,
+      "sha256": "8efd201b468ffb17caaa9433e071b8a5f5b224126e0ea04488d8d5bb00748f1d"
+    }
+  },
+  {
+    "slug": "linegate",
+    "file": "assets/generated/icons/linegate.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a short factory conveyor passing through an inspection gate with a tilted barrier arm, small boxes on the belt. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "6e6fada4-daf4-4124-9afd-a6992fde6f5e",
+    "generatedAt": "2026-10-02T02:50:20.081Z",
+    "sourceHash": "983fb9295593ed1c13a13b4b6fb713b197223e8ac368c1ad89d9a86e09977942",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/linegate.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 6680,
+      "sha256": "1b54981f0e38101aabd3f62489a411b3aef302799e40a4be79fc78c65a4df6ad"
+    }
+  },
+  {
+    "slug": "agent-org-chart",
+    "file": "assets/generated/icons/agent-org-chart.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a four-tier hierarchy of small rounded pods connected by thin rods, the top pod tinted copper. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "b9379f21-10ea-438c-83f5-4464f14bd199",
+    "generatedAt": "2026-10-02T02:50:33.258Z",
+    "sourceHash": "0ea1e541cd64ede83fc85ffc4668e6b9ac38a7e6368d84ca9c0868af583d1f64",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/agent-org-chart.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 6990,
+      "sha256": "b03cb4c8aac755ac5ef39d1c1f605f0415532d2c1f50d2d0cdca498856f10455"
+    }
+  },
+  {
+    "slug": "langgraph_data_analytics_agents",
+    "file": "assets/generated/icons/langgraph_data_analytics_agents.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "three ascending frosted glass bars with a small node graph linking their tops. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "d7226899-19bc-4be7-b073-c94b4070a1da",
+    "generatedAt": "2026-10-02T02:50:44.107Z",
+    "sourceHash": "6c5f31a405577e7e7ec9eb49a07e048e0d0465990f9f628c4dc9c7d211b18cb0",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/langgraph_data_analytics_agents.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 9364,
+      "sha256": "061d3fd826fde12b7b2542fac6aa5f64702ffd0ec263fd77e71b6e86bbd1ac38"
+    }
+  },
+  {
+    "slug": "reinforcement_learning_based_pump_control_with_edge_deployment",
+    "file": "assets/generated/icons/reinforcement_learning_based_pump_control_with_edge_deployment.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "an industrial centrifugal pump with a curved pipe and a small control dial module attached. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "8f91cc85-b48c-4737-adad-6e3b56ea1d31",
+    "generatedAt": "2026-10-02T02:50:54.727Z",
+    "sourceHash": "85c68894468d03229c5968c8a99589c44eaabf0fc6c33125d0519a35e82266c4",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/reinforcement_learning_based_pump_control_with_edge_deployment.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 13294,
+      "sha256": "ca865e2f58a3901d0148ed0fdc0a21f6df6ff685800fb56dbd6946c64c2fd232"
+    }
+  },
+  {
+    "slug": "jev-test-confidence-gate",
+    "file": "assets/generated/icons/jev-test-confidence-gate.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a round analog confidence gauge with a needle near the top, mounted on a small pedestal beside a hinged gate arm. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "fc40df23-7a73-4484-8aca-253dd64380c1",
+    "generatedAt": "2026-10-02T03:09:03.319Z",
+    "sourceHash": "01c4610def78df2a18a7dac0d6ed85cf9a2111f31d35816495caf9ed785e9747",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/jev-test-confidence-gate.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 10422,
+      "sha256": "b23b18f09f70b71bb91244a24711859a0ed427a44c1e2473286f5154c226acc1"
+    }
+  },
+  {
+    "slug": "docu_scribe_ai",
+    "file": "assets/generated/icons/docu_scribe_ai.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a clipboard holding a structured medical chart beside a small studio microphone. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "111c7603-5a48-43bf-a942-e9d9896ae2c4",
+    "generatedAt": "2026-10-02T02:51:16.266Z",
+    "sourceHash": "8390f71a7d62f1465cec967c32d6c15bf92021e8878dde09bfbb3223f612107b",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/docu_scribe_ai.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 10894,
+      "sha256": "c5432df16afd6d9faf87ac59e1d4d9a8c6a3df9b2c4f1f093b880122e98f773f"
+    }
+  },
+  {
+    "slug": "Rag_with_knowledge_graph_neo4j",
+    "file": "assets/generated/icons/Rag_with_knowledge_graph_neo4j.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a cluster of spheres joined by thin rods forming a graph, resting on an open book. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "a11ba4ff-dd8f-43d3-ae80-00ce95a03834",
+    "generatedAt": "2026-10-02T02:51:27.118Z",
+    "sourceHash": "d25fc99a2b903724638d230dbbec33b0bee876e4cb89daeb55264bb7c29b549c",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/Rag_with_knowledge_graph_neo4j.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 18494,
+      "sha256": "18d209db4c53e5d505e76a25ea27a3ecce7b181beb6b6f74ae13b055ce12634d"
+    }
+  },
+  {
+    "slug": "colpali_rag",
+    "file": "assets/generated/icons/colpali_rag.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a fanned stack of page sheets with image panels on them and a small magnifier. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "b369c548-021e-4616-9643-207e82f8cf5d",
+    "generatedAt": "2026-10-02T02:51:37.790Z",
+    "sourceHash": "4f19701f6a345f832d4f2eb00f4c294df38153b1c0669deadc0d021f35c7a21b",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/colpali_rag.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 12228,
+      "sha256": "6ee28a3b8d4c47dbd92e3cc7aae24dde3c6fd0b05a886c449e7af4e4846c86ef"
+    }
+  },
+  {
+    "slug": "financial_doc_analyser",
+    "file": "assets/generated/icons/financial_doc_analyser.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "a folded financial report showing a line chart, beside a short stack of coins. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "d61eba33-80cb-4d16-9263-fe9b4076e971",
+    "generatedAt": "2026-10-02T02:51:48.622Z",
+    "sourceHash": "51e11a9e2e4400263cbe27185c78908e9881339e87ed3303d3cde01da4583094",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/financial_doc_analyser.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 9078,
+      "sha256": "84e30d575714d0420b35285d8b057314e2c5b77c89b0abfd1bad5df2682c4474"
+    }
+  },
+  {
+    "slug": "agentic-memory-patterns",
+    "file": "assets/generated/icons/agentic-memory-patterns.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "stacked memory module cards standing in a slotted rack, one card tinted copper. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "4671b591-6fe3-4098-9788-307987c7c1d6",
+    "generatedAt": "2026-10-02T02:51:59.413Z",
+    "sourceHash": "155b9905086b25c00c28c579109ae785ed7201519bf92a3f0f07054b93c0a26b",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/agentic-memory-patterns.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 14900,
+      "sha256": "984736c08a6d95467cb695d404fa7f6264928409708853e9d1f4318849663cc4"
+    }
+  },
+  {
+    "slug": "machine-failure-api-aws-ECR",
+    "file": "assets/generated/icons/machine-failure-api-aws-ECR.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "interlocking gears with a small warning triangle, beside a compact shipping container. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "379ab76c-687c-4429-8308-cf10307a918f",
+    "generatedAt": "2026-10-02T02:52:12.372Z",
+    "sourceHash": "efac6a3761ebc26ae3a9caa4e7c260afd4d9d25845ea8e6f8156f5bed5be9948",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/machine-failure-api-aws-ECR.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 14908,
+      "sha256": "1d9d498d6fe20895e676b391148ff35c5b2414101a8f741fc649752ef81f624b"
+    }
+  },
+  {
+    "slug": "llama-2_fine_tune_AWS_deploy",
+    "file": "assets/generated/icons/llama-2_fine_tune_AWS_deploy.png",
+    "model": "recraft/v4.1/text-to-image",
+    "prompt": "three slim stacked server blades with a translucent layered neural network panel floating above them and a small wrench resting on top. Single centered isometric 3D object, brushed aluminum and frosted glass materials with small muted accents, soft diffused studio lighting, subtle contact shadow, restrained low-saturation colors, sophisticated editorial product illustration, the object fills about 60 percent of the square frame with even margins on all sides, no text, no letters, no logos, solid warm off-white seamless background filling the whole frame.",
+    "requestId": "e36d2e72-e9b4-4826-b840-73827e63d7c2",
+    "generatedAt": "2026-10-02T03:09:13.915Z",
+    "sourceHash": "702532dc4826367012cc295f1d90b2e1e512d800145ee8b4938423a589a25cce",
+    "rights": "Generated for the owner with Recraft V4.1 via the Higgsfield API; illustrative icon, not a project artifact.",
+    "processing": "Near-white backdrop (>236) snapped to white, trimmed white margin, fitted to 72% of a 560px white square, WebP quality 84.",
+    "output": {
+      "path": "images/icons/llama-2_fine_tune_AWS_deploy.webp",
+      "width": 560,
+      "height": 560,
+      "format": "webp",
+      "bytes": 16370,
+      "sha256": "6d938f321eacb1385c85d302da6247c82c6966b6af9b570abe149e23824b8038"
+    }
+  }
+]

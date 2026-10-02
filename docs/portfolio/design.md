@@ -2,19 +2,21 @@
 
 ## Tokens
 
-One light theme with dark-blue feature sections. The owner-selected palette (2026-10-01) is defined in `src/index.css`.
+Warm editorial theme (2026-10-01, replaces the navy/sky palette). Defined in `src/index.css`.
 
-| Color | Hex | Use | Contrast |
-|---|---|---|---|
-| Dark grey | `#3b3634` | Body text and headings (`--ink`, `--quiet`), footer background | 11.9:1 on white |
-| Dark blue | `#013e5b` | Links, eyebrows, primary button, hero/contact/table-header backgrounds (`--blue`) | 11.4:1 on white |
-| Blue | `#2794f1` | **Non-text accents only**: card top rules, finding bars, dots, focus ring | 3.2:1 on white, fails AA as text |
-| Light blue | `#a3e6ff` | Delivery band, status labels, accent text and buttons on dark blue | 8.3:1 against dark blue |
-| Light grey | `#b6c0c1` | Borders and rules; secondary text on dark blue | 6.1:1 against dark blue |
+| Color | Hex | Use |
+|---|---|---|
+| Ink | `#14202b` | Headings, body text, primary button, results-table header |
+| Quiet | `#4a5560` | Secondary text (≈6.9:1 on paper) |
+| Deep teal | `#1f5e60` | Links, eyebrows, role titles (`--blue`, ≈6.6:1 on paper) |
+| Copper | `#b0704e` | **Non-text accents only**: status dot, focus ring, delivery numerals |
+| Paper / Surface / Sand | `#f6f3ee` / `#ffffff` / `#ece6dc` | Page, cards and bands, icon tiles |
+| Line | `#d9d2c6` | Borders and rules |
+| Night | `#111c25` | Contact and footer; text `#f6f3ee`, secondary `#a9b4bc`, accent `#e2b08f` |
 
-Derived tints: `#eef9ff` (light-blue tint for figure and card backgrounds) and `#f2f4f4` (limitations panel).
+Type: Newsreader (display serif, Google Fonts) for headings and figures; Inter for UI and body.
 
-Type: Inter/system sans for UI and body (18px base); Georgia italic for kickers; monospace for eyebrows (600 weight). Every size below 28px was raised by 2–4px, so the smallest text is now 12px (previously 8px). Focus ring: 3px `#2794f1`, or `#a3e6ff` on dark sections.
+Project icons are illustrative 3D renders generated with Recraft V4.1 via the Higgsfield API (`npm run icons:generate`), published by `npm run icons:prepare` with prompts, request IDs and output hashes in `generated-icons.json`. They are not project artifacts; case-study figures remain the evidence.
 
 ## Layout and responsiveness
 

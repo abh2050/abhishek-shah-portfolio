@@ -17,9 +17,13 @@
     "test:e2e": "playwright test",
     "verify": "node scripts/verify.mjs",
     "capture": "node scripts/capture.mjs",
-    "assets:prepare": "node scripts/prepare-assets.mjs && node scripts/social-card.mjs"
+    "assets:prepare": "node scripts/prepare-assets.mjs && node scripts/social-card.mjs",
+    "higgsfield:example": "tsx scripts/higgsfield/index.ts",
+    "icons:generate": "tsx scripts/higgsfield/generate-icons.ts",
+    "icons:prepare": "node scripts/prepare-icons.mjs"
   },
   "dependencies": {
+    "@higgsfield/client": "^0.2.6",
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "^1.2.11",
     "@radix-ui/react-alert-dialog": "^1.1.14",
@@ -54,6 +58,7 @@
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
     "date-fns": "^3.6.0",
+    "dotenv": "^18.0.5",
     "embla-carousel-react": "^8.6.0",
     "input-otp": "^1.4.2",
     "lucide-react": "^0.462.0",
